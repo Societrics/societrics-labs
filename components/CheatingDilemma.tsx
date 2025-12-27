@@ -17,7 +17,7 @@ const CheatingDilemma = () => {
   // State
   const [cheatingRate, setCheatingRate] = useState(0.15);
   const [timeSteps, setTimeSteps] = useState(50);
-  const [simulationData, setSimulationData] = useState([]);
+  const [simulationData, setSimulationData] = useState<any[]>([]);
   const [currentTheta, setCurrentTheta] = useState(0);
   const [equilibriumType, setEquilibriumType] = useState('stable');
   const [showAdvanced, setShowAdvanced] = useState(false);
