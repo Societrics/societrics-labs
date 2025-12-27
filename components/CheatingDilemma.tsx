@@ -114,7 +114,7 @@ const CheatingDilemma = () => {
       : "Either (System stable)";
 
   // Preset scenarios
-  const loadPreset = (preset) => {
+  const loadPreset = (preset: string) => {
     switch(preset) {
       case 'low':
         setCheatingRate(0.05);

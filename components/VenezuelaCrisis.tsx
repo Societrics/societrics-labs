@@ -47,7 +47,7 @@ const VenezuelaCrisis = () => {
   };
 
   // Apply policy intervention (The SGT Pathway)
-  const applyIntervention = (phaseType) => {
+  const applyIntervention = (phaseType: string) => {
     setInterventionActive(true);
     setPhase(phaseType);
     
