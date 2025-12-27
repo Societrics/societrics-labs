@@ -30,7 +30,7 @@ const VenezuelaCrisis = () => {
   const [time, setTime] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
   const [speed, setSpeed] = useState(500);
-  const [history, setHistory] = useState([]);
+ const [history, setHistory] = useState<any[]>([]);
   const [state, setState] = useState(INITIAL_STATE);
   const [phase, setPhase] = useState('initial'); // initial, circuitBreaker, structuralFloor, incentiveEngine
   const [interventionActive, setInterventionActive] = useState(false);
